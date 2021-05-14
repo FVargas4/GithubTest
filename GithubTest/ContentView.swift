@@ -11,6 +11,10 @@ struct ContentView: View {
     var body: some View {
         Text("Second Branch")
             .padding()
+        Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+            
+        }
+        ProgressView(value: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/)
     }
 }
 
